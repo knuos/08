@@ -7,7 +7,7 @@ int binary_search(int *ary, int key);
 void main(){
 	int ary[]={1, 3, 4, 7, 9, 12, 16, 17, 20, 23};
 	int key;
-	printf("찾고자 하는 값을 입력하시오\n");
+	printf("탐색 값을 입력하시오.\n");
 	scanf("%d", &key);
 	printf("탐색 %d회 성공!\n", binary_search(ary, key));
 }
